@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Spicy+Rice&display=swap');
+:root{
+    --fonte-principal: "Spicy Rice", serif;
+    --fonte-secundaria: "Calistoga", serif;
+}
+
+body{
+    width: 98%;
+}
+
+head {
+    background-color: white;
+}
+
+/*     LOGO: SIMBOLO DO INFINITO + AULLY, AUTISM ALLY     */
+/*      ALINHA O TEXTO PARA DENTRO DO LOGO   */
+
+.logo__aully__infinito {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.logo__aully__infinito img {
+    width: 23%;
+    height: auto;
+}
+
+.aully,
+.autism,
+.ally{
+    position: absolute;
+    color: purple;
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+}
+
+.aully {
+    left: 44%;
+    bottom: 40%;
+    transform: translateX(-44%);
+    font-size: 2.5vw;
+}
+
+.autism {
+    bottom: 45%;
+    left: 56%;
+    transform: translateX(-57%);
+    font-size: 1.8vw;
+}
+
+.ally {
+    bottom: 30%;
+    left: 56%;
+    transform: translateX(-57%);
+    font-size: 2vw;
+}
+
+/*     NENHUMA EXPERIÊNCIA É ÚNICA COMPARTILHE A SUA   */
+.convite {
+    display: flex;
+    text-align: center;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    margin: 10px 2px;
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.convite__e__estrelas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.estrela__esquerda img {
+    transform: scaleX(-1);
+    /*inverte a imagem*/
+    margin: 0;
+    padding: 0;
+}
+
+
+/*      AJUSTE DOS BOTÕES, PONTEIRO, CORES, TAMANHO E BORDAS   */
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    gap: 2.5rem;
+    width: 100%;
+}
+
+.entrar {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #FF5757, #CB6CE6);
+    width: 10vw;
+    height: 50px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 18px;
+    border: none;
+    align-items: center;
+    font-family: var(--fonte-secundaria);
+}
+
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #FFDE59, #FF3131);
+    width: 15vw;
+    height: 50px;
+    color: white;
+    font-size: large; 
+    cursor: pointer;
+    border-radius: 18px;
+    border: none;
+    align-items: center;
+    font-family: var(--fonte-secundaria);
+}
+
+/*    RESUMO QUE MOSTRA OS BENEFÍCIOS DO SITE */
+
+.beneficios__site {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 0.5rem;
+    padding: 10px;
+
+
+}
+
+.acolhimento {
+    color: #A34BA3;
+}
+
+.pesquisa {
+    color: #328AB0;
+}
+
+/* FRASE QUE ESCLARECE QUEM É A CRIADORA, E SEU EMAIL DE CONTATO, E QUEM SÃO OS USUÁRIOS ALVO.   */
+
+.criadora {
+    font-size: 50%;
+    display: flex;
+    justify-content: center;
+    color: orange;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.criadora h1 {
+    margin: 5px 0;
+}
+

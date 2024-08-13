@@ -1,0 +1,178 @@
+
+/*    SMARTPHONES MENORES*/
+@media (max-width: 683px) {
+    .logo__aully__infinito img {
+        width: 60%;
+    }
+
+    .logo__aully__infinito {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aully {
+        font-size: 6vw;
+        left: 35%;
+    }
+
+    .autism {
+        font-size: 4vw;
+        left: 65%;
+        bottom: 45%;
+    }
+
+    .ally {
+        font-size: 4vw;
+        left: 65%;
+        bottom: 30%;
+    }
+
+    .convite {
+        font-size: 4vw;
+    }
+
+    .estrela__esquerda img,
+    .estrela__direita img {
+        width: 2.4rem;
+    }
+.botoes{
+    width: 100%;
+    text-align: center;
+
+}
+    .entrar,
+    .cadastro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20vw;
+        height: 6vh;
+        font-size: 3vw;
+    }
+
+    .beneficios__site {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5vw;
+        justify-content: center;
+        align-items: center;
+        gap: 1cm;
+    }
+
+    .acolhimento img,
+    .pesquisa img {
+        width: 4.38rem;
+    }
+    .acolhimento,
+    .pesquisa {
+        flex-grow: 1;
+    }
+
+    .criadora {
+        display: flex;
+        font-size: 1.5vw;
+        justify-content: center;
+    }
+
+}
+
+/*    SMARTPHONES MAIORES  */
+@media (min-width: 684px) and (max-width: 768px) {
+
+    .logo__aully__infinito img {
+        width: 60%;
+    }
+
+    .aully {
+        font-size: 4vw;
+        left: 35%;
+        flex-grow: 1;
+    }
+
+    .autism {
+        font-size: 4vw;
+        left: 65%;
+        bottom: 45%;
+        flex-grow: 1;
+    }
+
+    .ally {
+        font-size: 4vw;
+        left: 65%;
+        bottom: 30%;
+        flex-grow: 1;
+    }
+
+    .convite {
+        font-size: 4vw;
+        flex-grow: 1;
+    }
+
+    .estrela__esquerda img,
+    .estrela__direita img {
+        width: 2.4rem;
+    }
+.botoes{
+    width: 100%;
+}
+    .entrar,
+    .cadastro {
+        width: 20vw;
+        height: 7vh;
+        font-size: 3vw;
+    }
+
+    .beneficios__site {
+        display: flex;
+        font-size: 7px;
+        justify-content: center;
+        align-items: center;
+        gap: 1cm;
+    }
+
+    .acolhimento img,
+    .pesquisa img {
+        width: 70px;
+    }
+
+
+    .criadora {
+        display: flex;
+        font-size: 8px;
+        justify-content: center;
+    } 
+}
+/*          TABLET           */
+@media screen and (min-width: 769px) and (max-width: 1023px) { 
+    .logo__aully__infinito img {
+        width: 45%;
+    }
+    .aully {
+        font-size: 4vw;
+        left: 40%;
+        flex-grow: 1;
+    }
+
+    .autism {
+        font-size: 3.5vw;
+        left: 62%;
+        bottom: 45%;
+        flex-grow: 1;
+    }
+
+    .ally {
+        font-size: 3.5vw;
+        left: 62%;
+        bottom: 30%;
+        flex-grow: 1;
+    }
+    .botoes{
+        width: 100%;
+        }
+        .entrar,
+        .cadastro {
+            width: 20vw;
+            font-size: 2.5vw;
+        }
+}
